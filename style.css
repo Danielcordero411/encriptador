@@ -1,0 +1,157 @@
+body{
+
+    margin: 0px;
+    padding: 0px;
+    background-color:#F3F5FC;
+}
+.contenedor{
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+    /*background-color: blue ;*/
+
+}
+
+.logo{
+    width: 100%;
+    float: left;
+}
+
+.logopng{
+    margin-top: 1%;
+    float: inherit;
+    margin-left: 5%;
+}
+.logo h1 {
+    float: inherit;
+    margin-left: 5%;
+
+}
+
+.left{
+
+    float: left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+    background: #F3F5FC
+    /*background: orangered;*/
+}
+
+.right{
+    
+    float: right;
+    width: 30%;
+    height: auto;
+    border-radius: 24px;
+    background: #F3F5FC;
+   /* background: rgb(18, 192, 119);*/
+}
+
+.contenedor .left-button{
+float: left;
+width: 70%;
+height: auto;
+border-radius: 24px;
+background: #F3F5FC;
+/*background: pink;*/
+}
+
+/*zona para ingresar el texto*/
+.text-input-encriptar{
+/*falta colocar familia de fuente  */
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    color: #0A3871;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background:#F3F5FC ;
+
+}
+
+#dibujo{
+   margin-top: 10%;
+   width: 85%;
+   height: auto; 
+   margin-left: 5%;
+
+}
+#textmid{
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+   /*falta ingresar tipo de fuente*/
+    
+
+}
+#textarea{
+
+    float: left;
+    margin-left:10%;
+    color: #0A3871;
+    width: 80%;
+    height: 80%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background:#F3F5FC
+
+
+}
+/*dica*/
+.left-button p{
+    margin-left: 10%;
+    color: black;
+    font-size: 8px;
+}
+
+#btn-encriptar{
+    border: none;
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background:#0A3871;
+}
+#btn-encriptar:hover{
+
+    background:#367bcf;
+
+}
+
+#btn-desencriptar{
+    border: none;
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 12%;
+    background:#367bcf;
+}
+#btn-desencriptar:hover{
+
+    background:#0A3871;
+
+}
+
+#copiar{
+    border-radius: 24px;
+    margin-left: 33%;
+    margin-top: 10%;
+    padding: 24px;
+    width: 40%;
+    height: 5%;
+    background: #d8dfe8;
+    display: none;
+
+}
+
+#copiar:hover{
+    background: #49515c70;
+}
